@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #e3f2fd;
+  color: #0d47a1;
+}
+
+h1 {
+  text-align: center;
+}
+
+.selection {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #0d47a1;
+  border-radius: 4px;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.results {
+  background-color: #bbdefb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.results .data-item {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/fondo.png'); /* URL de la imagen de fondo */
+  background-size: cover; /* Para que la imagen cubra todo el fondo */
+  background-position: center center; /* Centrar la imagen */
+  background-attachment: fixed; /* Para que la imagen se mantenga fija al hacer scroll */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0d47a1; /* Color de texto */
+}
+
+.selection label {
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #0d47a1;
+  border-radius: 4px;
+}
+
+.results {
+  background-color: #bbdefb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #0d47a1;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+}
